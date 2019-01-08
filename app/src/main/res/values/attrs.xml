@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--GlideImageView-->
+    <declare-styleable name="GlideImageView">
+        <attr name="placeholderImage" format="reference"></attr>
+    </declare-styleable>
+
+    <!--NumberChangeLayout-->
+    <declare-styleable name="NumberChangeLayout">
+        <attr name="leftImage" format="reference"></attr>
+        <attr name="rightImage" format="reference"></attr>
+    </declare-styleable>
+
+    <!--BetNumChangeLayout-->
+    <declare-styleable name="BetNumChangeLayout">
+        <attr name="imageIcon" format="reference"></attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_room">
+
+
+    <ImageView
+        android:id="@+id/icon_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_table"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imge_dice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_room_dice"
+        app:layout_constraintBottom_toBottomOf="@+id/icon_table"
+        app:layout_constraintLeft_toLeftOf="@+id/icon_table"
+        app:layout_constraintRight_toRightOf="@+id/icon_table"
+        app:layout_constraintTop_toTopOf="@+id/icon_table" />
+
+    <LinearLayout
+        android:id="@+id/rl_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@mipmap/dice6" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_toRightOf="@+id/iv1"
+            android:layout_weight="1"
+            android:src="@mipmap/dice6" />
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_toRightOf="@+id/iv2"
+            android:layout_weight="1"
+            android:src="@mipmap/dice6" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imge_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_room_share"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/icon_table"
+        app:layout_constraintLeft_toLeftOf="@+id/icon_table"
+        app:layout_constraintRight_toRightOf="@+id/icon_table"
+        app:layout_constraintTop_toTopOf="@+id/icon_table" />
+
+    <ImageView
+        android:id="@+id/image_start_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:src="@mipmap/icon_start_game"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/icon_table"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

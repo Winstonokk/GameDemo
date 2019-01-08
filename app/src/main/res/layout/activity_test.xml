@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp">
+
+    <ImageView
+        android:id="@+id/imgRolling"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/dice6"
+        />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点数：6"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/btnRollDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="掷骰子"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        />
+
+
+
+
+
+</LinearLayout>

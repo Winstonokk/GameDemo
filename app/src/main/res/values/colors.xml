@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellow">#FFD704</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#999999</color>
+    <color name="brown">#442509</color>
+    <color name="blue">#c6d7f7</color>
+    <color name="background">#F6FBFE</color>
+    <color name="orange">#FFA500</color>
+    <!--分割线-->
+    <color name="linear_divider">#e3e3e3</color>
+    <color name="red">#f43737</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucence">#cc000000</color>
+</resources>

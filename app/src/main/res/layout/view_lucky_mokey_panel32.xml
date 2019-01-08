@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="316dp"
+    android:layout_height="316dp"
+    android:background="@drawable/bg_lucky_monkey_panel"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+    <ImageView
+        android:id="@+id/bg_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bubble0"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/bg_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bubble1"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:layout_gravity="center">
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item1"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:background="@drawable/bg_lucky_monkey_item1" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item2"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_toRightOf="@+id/item1"
+            android:background="@drawable/bg_lucky_monkey_item2" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item3"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_toRightOf="@+id/item2"
+            android:background="@drawable/bg_lucky_monkey_item3" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item4"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_toRightOf="@+id/item3"
+            android:background="@drawable/bg_lucky_monkey_item4" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item5"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_toRightOf="@+id/item4"
+            android:background="@drawable/bg_lucky_monkey_item5" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item6"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_toRightOf="@+id/item5"
+            android:background="@drawable/bg_lucky_monkey_item6" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item7"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_toRightOf="@+id/item6"
+            android:background="@drawable/bg_lucky_monkey_item7" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item8"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_toRightOf="@+id/item7"
+            android:background="@drawable/bg_lucky_monkey_item8" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item9"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_toRightOf="@+id/item8"
+            android:background="@drawable/bg_lucky_monkey_item1" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item10"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/item1"
+            android:background="@drawable/bg_lucky_monkey_item2" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item11"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/item10"
+            android:background="@drawable/bg_lucky_monkey_item3" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item12"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/item11"
+            android:background="@drawable/bg_lucky_monkey_item4" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item13"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/item12"
+            android:background="@drawable/bg_lucky_monkey_item5" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item14"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/item13"
+            android:background="@drawable/bg_lucky_monkey_item6" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item15"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/item14"
+            android:background="@drawable/bg_lucky_monkey_item7" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item16"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/item15"
+            android:background="@drawable/bg_lucky_monkey_item8" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item17"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_below="@+id/item16"
+            android:background="@drawable/bg_lucky_monkey_item1" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item18"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignBottom="@+id/item17"
+            android:layout_toRightOf="@+id/item17"
+            android:background="@drawable/bg_lucky_monkey_item2" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item19"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignBottom="@+id/item18"
+            android:layout_toRightOf="@+id/item18"
+            android:background="@drawable/bg_lucky_monkey_item3" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item20"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignBottom="@+id/item19"
+            android:layout_toRightOf="@+id/item19"
+            android:background="@drawable/bg_lucky_monkey_item4" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item21"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignBottom="@+id/item20"
+            android:layout_toRightOf="@+id/item20"
+            android:background="@drawable/bg_lucky_monkey_item5" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item22"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignBottom="@+id/item21"
+            android:layout_toRightOf="@+id/item21"
+            android:background="@drawable/bg_lucky_monkey_item6" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item23"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignBottom="@+id/item22"
+            android:layout_toRightOf="@+id/item22"
+            android:background="@drawable/bg_lucky_monkey_item7" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item24"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignBottom="@+id/item23"
+            android:layout_toRightOf="@+id/item23"
+            android:background="@drawable/bg_lucky_monkey_item8" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item25"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignBottom="@+id/item24"
+            android:layout_toRightOf="@+id/item24"
+            android:background="@drawable/bg_lucky_monkey_item1" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item26"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_above="@+id/item25"
+            android:layout_alignLeft="@+id/item25"
+            android:background="@drawable/bg_lucky_monkey_item2" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item27"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_above="@+id/item26"
+            android:layout_alignLeft="@+id/item26"
+            android:background="@drawable/bg_lucky_monkey_item3" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item28"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_above="@+id/item27"
+            android:layout_alignLeft="@+id/item27"
+            android:background="@drawable/bg_lucky_monkey_item4" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item29"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_above="@+id/item28"
+            android:layout_alignLeft="@+id/item28"
+            android:background="@drawable/bg_lucky_monkey_item5" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item30"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_above="@+id/item29"
+            android:layout_alignLeft="@+id/item29"
+            android:background="@drawable/bg_lucky_monkey_item6" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item31"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_above="@+id/item30"
+            android:layout_alignLeft="@+id/item30"
+            android:background="@drawable/bg_lucky_monkey_item7" />
+
+        <com.barnettwong.testgame.widght.PanelItemView
+            android:id="@+id/item32"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_above="@+id/item31"
+            android:layout_alignLeft="@+id/item31"
+            android:background="@drawable/bg_lucky_monkey_item8" />
+    </RelativeLayout>
+</RelativeLayout>
